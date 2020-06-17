@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Redirect, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import logo from "./logo.svg";
+import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
